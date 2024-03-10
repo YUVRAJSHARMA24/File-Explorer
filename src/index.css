@@ -23,3 +23,31 @@
   flex-direction: column;
   margin-top: 5px;
 }
+.folder > div > button {
+  font-size: x-small;
+  border: 1.5px solid black;
+  background-color: white;
+  padding: 1px;
+  margin-right: 1.5px;
+  cursor: pointer;
+}
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer > span{
+  margin-top: 5px;
+}
+
+.inputContainer__input{
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
